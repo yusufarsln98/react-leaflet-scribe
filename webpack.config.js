@@ -18,10 +18,10 @@ module.exports = {
       }
     },
     {
-      'leaflet-draw': {
-        amd: 'leaflet-draw',
-        commonjs: 'leaflet-draw',
-        commonjs2: 'leaflet-draw',
+      'leaflet-scribe': {
+        amd: 'leaflet-scribe',
+        commonjs: 'leaflet-scribe',
+        commonjs2: 'leaflet-scribe',
         root: 'L'
       }
     },

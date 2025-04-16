@@ -1,3 +1,4 @@
+/* eslint-disable react/sort-comp */
 import React, { Component } from 'react';
 import { MapContainer, TileLayer, Circle, FeatureGroup } from 'react-leaflet';
 import L from 'leaflet';
@@ -20,8 +21,6 @@ L.Icon.Default.mergeOptions({
 let polyline;
 
 export default class EditControlExample extends Component {
-  // see http://leaflet.github.io/Leaflet.draw/docs/leaflet-draw-latest.html#l-draw-event for leaflet-draw events doc
-
   _onEdited = (e) => {
     let numEdited = 0;
     e.layers.eachLayer((layer) => {

@@ -1,5 +1,7 @@
+/* eslint-disable guard-for-in */
+/* eslint-disable func-style */
 import { PropTypes } from 'prop-types';
-import Draw from 'leaflet-draw'; // eslint-disable-line
+import Draw from 'leaflet-scribe'; // eslint-disable-line
 import isEqual from 'fast-deep-equal';
 import React, { useRef } from 'react';
 import { useLeafletContext } from '@react-leaflet/core';
@@ -87,9 +89,9 @@ function EditControl(props) {
       drawRef.current.remove(map);
     };
   }, [
-    props.draw, 
-    props.edit, 
-    props.position, 
+    props.draw,
+    props.edit,
+    props.position,
     props.onCreated,
     props.onDeleted,
     props.onEdited

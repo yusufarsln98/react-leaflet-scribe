@@ -1,5 +1,5 @@
 import * as React from 'react';
-import 'leaflet-draw';
+import 'leaflet-scribe';
 import type {
 	DrawOptions,
 	Control,
